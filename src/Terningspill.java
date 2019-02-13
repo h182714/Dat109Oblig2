@@ -30,6 +30,7 @@ public class Terningspill implements Runnable {
 			for(int i = 1; id>=i; i++) {
 
 				spillere[i]= new Spiller(JOptionPane.showInputDialog("navn på spiller" + (i) + " : "), i);
+
 			}
 
 		}else if(Objects.equals(id, null)) {

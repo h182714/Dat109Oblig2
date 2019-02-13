@@ -9,17 +9,16 @@ public class Kopp {
 		this.id = id;
 		this.sum =sum;
 	}
-	public int trill(){
+	public int trill() {
 
 		Random rand = new Random();
 		int tall = 0;
 
-		//Gives result between 0 and 6
-		tall= rand.nextInt(6);
-		tall++;
-
+		for(int i = 0; i >= 6; i++) {
+			//Gives result between 0 and 6
+			tall = rand.nextInt(6);
+			tall++;
+		}
 		return tall;
 	}
-
-
 }
